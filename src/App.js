@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React
+ from 'react';
+ import MainPage from "./Components/MainPage";
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-     <h1>Cold Rush</h1>
+     <MainPage/>
     </div>
   );
 }
